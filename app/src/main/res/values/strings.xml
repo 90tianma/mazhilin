@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">寻宝</string>
+    <string name="OK">确定</string>
+    <string name="password_rules">密码以字母开头，长度在6~18之间，只能包含字符、数字和下划线</string>
+    <string name="username_rules">账号为中文，字母或数字，长度为4~20，一个中文算2个长度</string>
+    <string name="username_error">账号错误</string>
+    <string name="password_error">密码错误</string>
+    <string name="please_confirm_password">请确认密码</string>
+    <string name="hide">藏宝</string>
+    <string name="mylist">我的宝藏</string>
+    <string name="help">帮助</string>
+    <string name="exit">退出</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="appTitle">寻宝</string>
+    <string name="update">版本更新</string>
+    <string name="password">密码</string>
+    <string name="acount">帐号</string>
+    <string name="userHome">个人中心</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

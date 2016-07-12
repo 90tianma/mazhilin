@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/nav_menu_group1" android:checkableBehavior="single">
+        <item android:id="@+id/menu_item_hide" android:icon="@drawable/ic_hide" android:title="@string/hide"></item>
+    </group>
+    <group android:id="@+id/nav_menu_group2" android:checkableBehavior="single">
+        <item android:id="@+id/menu_item_myList" android:icon="@drawable/ic_list" android:title="@string/mylist"></item>
+    </group>
+    <group android:id="@+id/nav_menu_group3" android:checkableBehavior="single">
+        <item android:id="@+id/menu_item_help" android:icon="@drawable/ic_help" android:title="@string/help"></item>
+    </group>
+    <group android:id="@+id/nav_menu_group4" android:checkableBehavior="single">
+        <item android:id="@+id/menu_item_exit" android:icon="@drawable/ic_exit" android:title="@string/exit"></item>
+    </group>
+</menu>

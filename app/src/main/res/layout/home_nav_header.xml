@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_world"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    tools:ignore="Overdraw" >
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user_icon"
+        android:scaleType="centerInside"
+        app:border="true"
+        app:border_color="#33d0d0d0"
+        app:border_width="8dp"
+        app:shadow="false"
+        app:selector="true"
+        app:selector_stroke_width="8dp"
+        app:selector_stroke_color="#99f0f0f0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="baby"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#aa0000"
+        android:padding="5dp"/>
+
+</LinearLayout>

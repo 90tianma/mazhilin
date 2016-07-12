@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_bg"
+    tools:context="com.zhuoxin.treasure.MainActivity">
+    <fragment
+        android:id="@+id/textureView"
+        android:name="com.zhuoxin.treasure.user.MainMP4Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/main_register"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_height="60dp"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:id="@+id/main_login"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription,RtlHardCoded">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+         android:background="#aa0000"/>
+    <!--android:src="@drawable/divider_line"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:clickable="true"
+        android:background="#ded2ca">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="图标"
+            android:textColor="#d10464"
+            android:gravity="center_vertical"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"/>
+        <!--android:drawableLeft="@drawable/ic_treasure"-->
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_arrow"
+            android:text="未选"
+            android:textColor="#d10464"
+            android:gravity="center_vertical|right"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:scaleType="fitXY"
+        />
+    <!--android:src="@drawable/divider_line"-->
+
+    <LinearLayout
+        android:background="#ded2ca"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:clickable="true">
+        <!--android:background="@drawable/selector_list_item_bg"-->
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="宝藏大小"
+            android:textColor="#d10464"
+            android:gravity="center_vertical"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"/>
+        <!--android:drawableLeft="@drawable/ic_treasure_size"-->
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_arrow"
+            android:text="宝藏大小"
+            android:textColor="#d10464"
+            android:gravity="center_vertical|right"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:scaleType="fitXY"
+         android:background="#aa0000"/>
+    <!--android:src="@drawable/divider_line"-->
+
+    <LinearLayout
+        android:background="#ded2ca"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+
+        android:clickable="true">
+        <!--android:background="@drawable/selector_list_item_bg"-->
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="宝藏级别"
+            android:textColor="#d10464"
+            android:gravity="center_vertical"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"/>
+        <!--android:drawableLeft="@drawable/ic_treasure_level"-->
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_arrow"
+            android:text="普通级别"
+            android:textColor="#d10464"
+            android:gravity="center_vertical|right"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:scaleType="fitXY"
+       android:background="#aa0000"/>
+    android:src="@drawable/divider_line"
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+        <!--android:background="#ded2ca"-->
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="260dp"
+            android:id="@+id/et_description"
+            android:background="#dddd"
+            android:inputType="textMultiLine"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="top|left"
+            android:hint="请输入宝藏的描述"
+            android:padding="8dp"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入宝藏的描述"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

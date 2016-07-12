@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.zhuoxin.treasure"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    /*ButterKnife依赖库*/
+    /*Mvp依赖库*/
+    /*OkHttp依赖库*/
+    /*Gson依赖库*/
+    /*retrofit依赖库*/
+    /*design*/
+    /*圆形imageView*/
+    /*photocropper依赖库*/
+    /*ImageLoader  会报错*/
+    //compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.hannesdorfmann.mosby:mvp:2.0.1'
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.pkmmte.view:circularimageview:1.1'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'org.hybridsquad.android.photocropper:library:2.1.0'
+    /*依赖baidumap模块*/
+    compile project(':baidumap')
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    /*cardview的依赖库*/
+    compile 'com.android.support:cardview-v7:23.2.1'
+    /*YOYO动画的依赖库*/
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.1@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+    compile 'jp.wasabeef:recyclerview-animators:2.2.3'
+    //githup上的代码
+//    https://github.com/feicui-android/truesure.git
+}

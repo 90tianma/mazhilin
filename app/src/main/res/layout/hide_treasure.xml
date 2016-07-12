@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/cardView"
+        tools:ignore="RtlHardCoded"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/tv_currentLocation"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="当前位置"
+                android:layout_marginTop="2dp"
+                android:textColor="#0b9f55"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/iv_toTreasureInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_arrow"
+                android:layout_marginRight="10dp"
+                android:tint="#c7b39d"/>
+
+            <EditText
+                android:id="@+id/et_treasureTitle"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_toLeftOf="@+id/iv_toTreasureInfo"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/tv_currentLocation"
+                android:layout_marginTop="2dp"
+                android:hint="标题"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
